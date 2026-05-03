@@ -34,7 +34,7 @@ def main():
 #response = send("Justin", verbose =True)
 #print(response)
 
-#B) better pythonic way to do this is , means to call the function direcly on startup
+#B) better pythonic way to do this is , means to call the function direcly on startup - i.e when this file is called only then it runs , and when send.py is imported else where then this doenst run
 if __name__ == "__main__":
     main()
 
